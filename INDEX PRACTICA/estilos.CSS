@@ -1,0 +1,61 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(43, 75, 235, 0.75),rgba(52, 63, 214, 0.75)), url(logo2.png);
+    width: 150%;
+    height: 150%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 5%;
+    font-weight: bold;
+}
+
+h1{
+    color: rgb(186, 186, 190);
+    font-size: 30px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px 250px;
+}
+a{
+    color: rgb(214, 204, 204);
+    text-decoration: none;
+    font-size: 20px;
+}
+footer{
+   display: flex;
+   height: 5rem;
+   background-color: hs1(318, 89%, 48%)
+
+}
+
+h2{
+    color: rgb(200, 200, 200);
+    font-size: 55px;
+}
+h3
+{
+color: rgb(10, 10, 10);
+font-size: 40px;
+}
+h4
+{
+    color: rgb(13, 13, 13);
+    font-size: 25px
+}
+h5
+{
+    color: rgb(13, 13, 13);
+    font-size: 25px
+}
